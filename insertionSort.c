@@ -1,3 +1,20 @@
+/*
+Insertion Sort
+
+This repository contains an implementation of the Insertion Sort algorithm in C.
+Algorithm Overview
+
+Insertion Sort is a simple sorting algorithm that builds the final sorted array one element at a time. It iterates through the array and for each element, it compares it with the previous elements and shifts them to the right if they are greater, until the correct position for the element is found. This process is repeated for all elements, resulting in a sorted array.
+
+The steps of the Insertion Sort algorithm are as follows:
+
+    Start with the second element and iterate through the array.
+    Compare the current element with the elements before it.
+    If an element is greater than the current element, shift it one position to the right.
+    Repeat step 3 until all elements greater than the current element have been shifted.
+    Insert the current element in its correct position.
+    Repeat steps 2-5 until all elements have been processed.
+*/
 #include <stdio.h>
 
 void insertionSort(int arr[], int n) {
